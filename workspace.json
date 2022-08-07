@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "feature-home": "libs/feature-home",
+    "feature-openclosestore": "libs/feature-openclosestore",
+    "feature-recepmer": "libs/feature-recepmer",
+    "ionic": "apps/ionic",
+    "www": "apps/www"
+  }
+}

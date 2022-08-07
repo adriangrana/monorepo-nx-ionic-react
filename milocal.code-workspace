@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+			"path": "./libs/feature-home",
+			"name": "Feature: Home"
+		},
+		{
+			"path": "./libs/feature-openclosestore",
+			"name": "Feature: Apertura y Cierre"
+		},
+		{
+			"path": "./libs/feature-recepmer",
+			"name": "Feature: Recepcion de Mercadería"
+		},
+		{
+			"path": "./apps/www",
+			"name": "www"
+		},
+		{
+			"path": "./apps/ionic",
+			"name": "Ionic"
+		},
+		{
+			"path": ".",
+			"name": "Monorepo"
+		},
+		
+	],
+	"settings": {}
+}

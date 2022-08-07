@@ -1,0 +1,26 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@milocal/feature-home": ["libs/feature-home/src/index.ts"],
+      "@milocal/feature-openclosestore": [
+        "libs/feature-openclosestore/src/index.ts"
+      ],
+      "@milocal/feature-recepmer": ["libs/feature-recepmer/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

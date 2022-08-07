@@ -1,0 +1,23 @@
+{
+  "root": "libs/feature-openclosestore",
+  "sourceRoot": "libs/feature-openclosestore/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/feature-openclosestore/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/feature-openclosestore"],
+      "options": {
+        "jestConfig": "libs/feature-openclosestore/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}
